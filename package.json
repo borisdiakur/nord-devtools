@@ -1,26 +1,17 @@
 {
-  "name": "new-moon-chrome-devtools",
-  "version": "1.1.1",
-  "description": "New Moon for Chrome DevTools",
-  "homepage": "https://taniarascia.github.io/new-moon",
+  "name": "nord-devtools",
+  "version": "1.0.0",
+  "description": "Nord DevTools Theme",
   "main": "Gruntfile.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/taniarascia/new-moon-chrome-devtools.git"
-  },
-  "bugs": {
-    "url": "https://github.com/taniarascia/new-moon-chrome-devtools/issues"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "license": "MIT",
+  "author": "Boris Diakur (https://borisdiakur.de)",
+  "repository": "borisdiakur/nord-devtools",
+  "packageManager": "pnpm@7.9.5",
   "devDependencies": {
     "grunt": "^1.0.4",
     "grunt-bump": "^0.8.0",
     "grunt-contrib-compress": "^1.4.3",
     "grunt-contrib-less": "^2.0.0",
     "grunt-contrib-watch": "^1.1.0"
-  },
-  "author": "Tania Rascia <tania@taniarascia.com>",
-  "license": "MIT"
+  }
 }

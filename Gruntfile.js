@@ -1,6 +1,4 @@
 module.exports = function(grunt) {
-  /* Load Plugins */
-
   grunt.loadNpmTasks('grunt-contrib-less')
   grunt.loadNpmTasks('grunt-contrib-watch')
   grunt.loadNpmTasks('grunt-contrib-compress')

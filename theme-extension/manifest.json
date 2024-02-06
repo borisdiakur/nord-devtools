@@ -1,10 +1,10 @@
 {
-  "name": "DevTools Theme: New Moon",
-  "version": "1.1.1",
-  "description": "The optimized dark theme for web development",
+  "name": "Nord DevTools Theme",
+  "version": "1.0.0",
+  "description": "Nord DevTools Theme",
   "devtools_page": "devtools.html",
-  "homepage_url": "https://github.com/taniarascia/new-moon-chrome-devtools",
-  "manifest_version": 2,
+  "homepage_url": "https://github.com/borisdiakur/nord-devtools",
+  "manifest_version": 3,
   "icons": {
     "16": "images/icon16.png",
     "48": "images/icon48.png",

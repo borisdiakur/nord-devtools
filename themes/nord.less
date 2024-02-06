@@ -1,91 +1,87 @@
-//************************************************************************/
-/* New Moon by Tania Rascia [@taniarascia]                               */
-/*************************************************************************/
-
 @theme-type: dark;
 
 // Global Settings
 @text-height      : 14px;
-@global-accent    : #ffd479;  
+@global-accent    : #EBCB8B;
 @global-arrow     : #8c8c8c;
-@global-background: #2d2d2d;
+@global-background: #2a2e38;
 @global-boxshadow : rgba(17,17,17,.6);
 @global-divider   : lighten(@global-background, 10%);
 @global-hover     : lighten(@global-background, 5%);
 @global-input     : #111;
-@global-selected  : rgba(0,0,0,.7);
-@global-text      : #b3b9c5;
-@global-toolbar   : #444;
+@global-selected  : rgba(94, 129, 172,.7);
+@global-text      : #ECEFF4;
+@global-toolbar   : #252932;
 @global-label     : #626262;
-@global-warn      : #ffeea6;
-@global-error     : #f2777a;
-@global-link      : #92D192;
+@global-warn      : #EBCB8B;
+@global-error     : #BF616A;
+@global-link      : #A3BE8C;
 @global-textshadow: darken(@global-background, 10%);
 
 // JavaScript
-@js-atom      : #92D192;
+@js-atom      : #A3BE8C;
 @js-attribute : #b3b9c5;
-@js-builtin   : #62CFCF;
+@js-builtin   : #8FBCBB;
 @js-comment   : #777c85;
-@js-def       : #49a6d2;
-@js-error     : #ad4e4e;
-@js-header    : #92D192;
+@js-def       : #5E81AC;
+@js-error     : #BF616A;
+@js-header    : #A3BE8C;
 @js-hr        : #777c85;
-@js-keyword   : #ffeea6;
-@js-link      : #92D192;
+@js-keyword   : #EBCB8B;
+@js-link      : #A3BE8C;
 @js-meta      : #ffffff;
-@js-number    : #fca369;
-@js-operator  : #AC8D58;
+@js-number    : #D08770;
+@js-operator  : #B48EAD;
 @js-property  : #b3b9c5;
-@js-string    : #92D192;
-@js-tag       : #49a6d2;
-@js-variable  : #62CFCF;
-@js-variable-2: #f2777a;
+@js-string    : #A3BE8C;
+@js-tag       : #5E81AC;
+@js-variable  : #8FBCBB;
+@js-variable-2: #BF616A;
 
 // JavaScript Objects
 @js-obj-array    : #777c85;
-@js-obj-boolean  : #E1A6F2;
+@js-obj-boolean  : #B48EAD;
 @js-obj-function : #ffffff;
 @js-obj-name     : #b3b9c5;
-@js-obj-number   : #fca369;
+@js-obj-number   : #D08770;
 @js-obj-preview  : #dddddd;
-@js-obj-regexp   : #92D192;
-@js-obj-string   : #92D192;
-@js-obj-undefined: #ad4e4e;
+@js-obj-regexp   : #A3BE8C;
+@js-obj-string   : #A3BE8C;
+@js-obj-undefined: #BF616A;
 
 // CSS
-@css-at-rule   : #ffeea6;
-@css-atom      : #E1A6F2;
-@css-builtin   : #ffd479;
+@css-at-rule   : #EBCB8B;
+@css-atom      : #B48EAD;
+@css-builtin   : #EBCB8B;
 @css-comment   : #8a8a80;
-@css-def       : #6AB0F3;
-@css-important : #ffeea6;
+@css-def       : #81A1C1;
+@css-important : #EBCB8B;
 @css-meta      : #ffffff;
-@css-number    : #fca369;
-@css-operator  : #AC8D58;
-@css-property  : #E1A6F2; 
-@css-qualifier : #6AB0F3;
-@css-string    : #92D192;
-@css-string-2  : #92D192;
-@css-tag       : #6AB0F3;
-@css-variable  : #f2777a;
-@css-variable-2: #ffeea6;
-@css-id        : #E1A6F2;
-@css-class     : #ffd479;
-@css-pseudo    : #62CFCF;
+@css-number    : #D08770;
+@css-operator  : #B48EAD;
+@css-property  : #B48EAD;
+@css-qualifier : #81A1C1;
+@css-string    : #A3BE8C;
+@css-string-2  : #A3BE8C;
+@css-tag       : #81A1C1;
+@css-variable  : #BF616A;
+@css-variable-2: #EBCB8B;
+@css-id        : #B48EAD;
+@css-class     : #EBCB8B;
+@css-pseudo    : #8FBCBB;
 
 // HTML Highlighting
-@xml-attribute         : #ffd479;
+@xml-attribute         : #EBCB8B;
 @xml-comment           : #777c85;
-@xml-error             : #f2777a;
-@xml-iframe-root       : #E1A6F2;
+@xml-error             : #BF616A;
+@xml-iframe-root       : #B48EAD;
 @xml-js-node           : #abb2bf;
-@xml-link              : #92D192;
-@xml-pseudo            : #62CFCF;
-@xml-pseudo-highlighted: #62CFCF;
-@xml-shadow-root       : #fca369;
-@xml-string            : #92D192;
-@xml-tag               : #6AB0F3;
+@xml-link              : #A3BE8C;
+@xml-pseudo            : #8FBCBB;
+@xml-pseudo-highlighted: #8FBCBB;
+@xml-shadow-root       : #D08770;
+@xml-string            : #A3BE8C;
+@xml-tag               : #81A1C1;
 @xml-bracket           : #abb2bf;
 
 // Tabbed Header Configuration
@@ -98,7 +94,7 @@
 @tab-highlighted      : @global-accent;
 @tab-label            : #9a9a9a;
 @tab-label-selected   : #f8f8f8;
-@tab-label-unsaved    : #ffeea6;
+@tab-label-unsaved    : #EBCB8B;
 
 // Toolbars
 @tab-main-icons-padding : 6px;
@@ -130,12 +126,12 @@
 
 // Editor Properties
 @cm-cursor             : #fff;
-@cm-error              : #f2777a;
+@cm-error              : #BF616A;
 @cm-gutter             : lighten(@global-background, 4%);
 @cm-gutter-border      : lighten(@global-background, 5%);
 @cm-gutter-lines       : lighten(@global-background, 40%);
 @cm-matching-bracket   : #ffffff;
-@cm-nonmatching-bracket: #f2777a;
+@cm-nonmatching-bracket: #BF616A;
 @cm-lines-no-sourcemap : lighten(@global-background, 1%);
 @cm-selected           : @global-selected;
 @cm-whitespace         : lighten(@global-background, 5%);
@@ -155,7 +151,7 @@
 @style-section                : lighten(@global-background, 15%);
 @style-selector-text          : #b3b9c5;
 @style-separator              : lighten(@global-background, 10%);
-@style-value                  : #E1A6F2;
+@style-value                  : #B48EAD;
 
 // Filters
 @filter-background   : lighten(@global-background,5%);
@@ -164,7 +160,7 @@
 @filter-selected     : lighten(@global-background, 15%);
 @filter-selected-text: lighten(@global-text, 15%);
 @filter-error        : @global-error;
-@filter-warning      : #ffeea6;
+@filter-warning      : #EBCB8B;
 @filter-info         : #b3b9c5;
 @filter-log          : #b3b9c5;
 @filter-debug        : @global-error;
@@ -187,7 +183,7 @@
 @form-label-text       : @global-text;
 
 // Local Modifications
-@history-added-text  : #92D192;
+@history-added-text  : #A3BE8C;
 @history-removed-text: @global-error;
 
 // Screencast
@@ -201,12 +197,12 @@
 @sb-thumb-roundness: 2px;
 
 // Settings
-@settings-background       : #444;
-@settings-border           : #454545;
-@settings-dialog           : #333;
-@settings-edit-background  : #222;
-@settings-folder-background: #222;
-@settings-selected         : rgba(150, 255, 150, 0.2);
+@settings-background       : #434C5E;
+@settings-border           : #4C566A;
+@settings-dialog           : #3B4252;
+@settings-edit-background  : #2E3440;
+@settings-folder-background: #2E3440;
+@settings-selected         : rgba(136, 192, 208, 0.2);
 
 // Table/Sidebar Selections | Breakpoints
 @selection-background: @global-selected;
@@ -217,8 +213,8 @@
 @hover-text      : @global-text;
 
 // Sources Tab
-@sources-exception-all     : #92D192;
-@sources-exception-uncaught: #ffd479;
+@sources-exception-all     : #A3BE8C;
+@sources-exception-uncaught: #EBCB8B;
 @sources-highlight-text    : darken(@global-background, 4%);
 @sources-pane-background   : rgba(0,0,0,.8);
 @sources-placeholder-text  : #848991;
@@ -242,7 +238,7 @@
 
 // Popovers
 @popover-background       : lighten(@global-background, 5%);
-@popover-details-row-title: #ffd479;
-@popover-details-title    : #ffd479;
-@popover-title            : #E1A6F2;
+@popover-details-row-title: #EBCB8B;
+@popover-details-title    : #EBCB8B;
+@popover-title            : #B48EAD;
 @popover-tree-border      : #848991;

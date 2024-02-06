@@ -2,6 +2,10 @@
 /* DevTool Chrome
 /**********************************************/
 
+:root {
+	--sys-color-cdt-base-container: @global-background !important;
+}
+
 // GLOBAL BACKGROUND COLOR
 // elements-panel
 .panel.elements,
@@ -11,7 +15,7 @@
 // console
 #console-messages,
 // sources
-.tabbed-pane-content,
+.tabbed-pane-content
  {
 // #console-messages,
 // #console-view,
@@ -37,8 +41,8 @@
 	background-color: @global-background !important;
 }
 
-::selection {
-	background: lighten(@global-selected, 44%)
+.cm-selectionBackground {
+	background: @global-selected !important;
 }
 
 // Panel text
